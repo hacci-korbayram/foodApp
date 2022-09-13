@@ -9,9 +9,17 @@ import { NgxStarsModule } from 'ngx-stars';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
 import { TagsComponent } from './tags/tags.component';
+import { FoodPageComponent } from './food-page/food-page.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent, SearchComponent, TagsComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    HomeComponent,
+    SearchComponent,
+    TagsComponent,
+    FoodPageComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule, NgxStarsModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
